@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="urn:nhibernate-configuration-2.2">
+  <session-factory>
+    <property name="connection.provider">
+      NHibernate.Connection.DriverConnectionProvider
+    </property>
+    <property name="dialect">
+      NHibernate.Dialect.MySQLDialect
+    </property>
+    <property name="connection.driver_class">
+      NHibernate.Driver.MySqlDataDriver
+    </property>
+    <property name="connection.connection_string">
+      Server=localhost;Database=student;User ID=root;Password=Kuroneko82?!
+    </property>
+    <mapping file="C:\Users\JeongJin\Desktop\winform_mysql_nhibernate-master\WinForm_MySql_NHibernate_UnitTest\Mapping\Student.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>
